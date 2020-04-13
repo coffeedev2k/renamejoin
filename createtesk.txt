@@ -1,1 +1,1 @@
-schtasks /create /RU %computername%\Admin /RP localAdminpasswordhere /SC ONSTART /TN step1 /TR c:\renamejoin\step1.cmd
+schtasks /create /RU %computername%\Admin /RP localAdminpasswordhere /SC ONSTART /TN step1 /TR c:\renamejoin\step1.cmd /RL HIGHEST
